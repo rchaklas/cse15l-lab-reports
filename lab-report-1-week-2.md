@@ -1,1 +1,1 @@
-![Image](snip.png)
+![](snip.PNG)
