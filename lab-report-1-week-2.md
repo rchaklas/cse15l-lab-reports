@@ -9,10 +9,9 @@ Once you have it installed, the home page should look something like this (minus
 
 ## 2). Remotely Connecting
 * Before you can connect remotely, you need to have OpenSSH client and OpenSSH server installed, both of which can be installed by following the directions from this link: [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse).
-* Then you need to use the account lookup tool to find your login information from this link: [Link](https://sdacs.ucsd.edu/~icc/index.php).
+* Then you need to use the account lookup tool to find your login information from this link: [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php).
 * Open up a new terminal in VScode from the top of the screen (ctrl + shift + \`) and type in the following command with your course-specific letters replacing the 'zz':
 `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
-
 * Enter 'yes' if it asks you if you want to continue connecting and then enter your account password. It should look something like this once you are connected.
 ![](snip2.PNG)
 
@@ -30,13 +29,12 @@ Here are some helpful commands:
 * `du` (gets the size of files and folders in the directory)
 * `exit` (logs out of the remote server, can also use ctrl + D)
 
-## 4). Moving Files with `scp`
+## 4). Moving Files With scp
 
 The `scp` command is used to move files from the client to the remote server.
 * The format is `scp filename cs15lwi22zz@ieng6.ucsd.edu:~/` where filename is the name of the file
 * Enter your password to log in and you should be able to see the file in the remote server with the `ls` command. 
-Here is an example of me running code on the remove server after using `scp` to copy it over:
-![](snip3.PNG)
+Here is an example of me running code on the remove server after using `scp` to copy it over: ![](snip3.PNG)
 
 ## 5). Setting an SSH Key
 
@@ -58,4 +56,4 @@ You should now be able to use the `ssh` and `scp` commands without entering your
 ## 6). Optimizing Remote Running
 
 * To log out of the server after running a command, you can put quotes around it like so, where COMMAND is the command you want to run on the remote server: `ssh cs15lwi22@ieng6.ucsd.edu "COMMAND"`
-* By separating commands with semicolons, you can run multiple commands on the server with one line of code. `$ scp file.java cs15lwi22zz@ieng6.ucsd.edu; ssh cs15lwi22zz@ieng6.ucsd.edu "javac file.java; ssh cs15lwi22zz@ieng6.ucsd.edu "java file"`
+* By separating commands with semicolons, you can run multiple commands on the server with one line of code: `$ scp file.java cs15lwi22zz@ieng6.ucsd.edu; ssh cs15lwi22zz@ieng6.ucsd.edu "javac file.java; ssh cs15lwi22zz@ieng6.ucsd.edu "java file"`
