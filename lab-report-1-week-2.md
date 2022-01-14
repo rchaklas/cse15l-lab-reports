@@ -33,7 +33,7 @@ Here are some helpful commands:
 ## 4). Moving Files With scp
 
 The `scp` command is used to move files from the client to the remote server.
-* The format is `scp filename cs15lwi22zz@ieng6.ucsd.edu:~/` where filename is the name of the file
+* The format is `scp filename cs15lwi22zz@ieng6.ucsd.edu:~/` where filename is the name of the file.
 * Enter your password to log in and you should be able to see the file in the remote server with the `ls` command. 
 
 Here is an example of me running code on the remove server after using `scp` to copy it over:
@@ -42,8 +42,8 @@ Here is an example of me running code on the remove server after using `scp` to 
 ## 5). Setting an SSH Key
 
 To make it so that you don't need to enter your password every time you want to log into the remote server, you can set an SSH key.
-* First, run the `ssh-keygen` command on your computer
-* Press enter twice if prompted to set a passphrase to leave it empty
+* First, run the `ssh-keygen` command on your computer.
+* Press enter twice if prompted to set a passphrase to leave it empty.
 * Copy the public key that was generated to the `.ssh` directory on the server, replacing the YOURUSER with the name of your user on your device and using the appropriate letters in place of the 'zz':
 
 ```
