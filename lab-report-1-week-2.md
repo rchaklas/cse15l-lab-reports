@@ -34,7 +34,9 @@ Here are some helpful commands:
 The `scp` command is used to move files from the client to the remote server.
 * The format is `scp filename cs15lwi22zz@ieng6.ucsd.edu:~/` where filename is the name of the file
 * Enter your password to log in and you should be able to see the file in the remote server with the `ls` command. 
-Here is an example of me running code on the remove server after using `scp` to copy it over: ![](snip3.PNG)
+
+Here is an example of me running code on the remove server after using `scp` to copy it over:
+![](snip3.PNG)
 
 ## 5). Setting an SSH Key
 
