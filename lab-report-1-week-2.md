@@ -28,6 +28,7 @@ Here are some helpful commands:
 * `open ~` (opens the file)
 * `du` (gets the size of files and folders in the directory)
 * `exit` (logs out of the remote server, can also use ctrl + D)
+![](snip5.PNG)
 
 ## 4). Moving Files With scp
 
@@ -58,4 +59,7 @@ You should now be able to use the `ssh` and `scp` commands without entering your
 ## 6). Optimizing Remote Running
 
 * To log out of the server after running a command, you can put quotes around it like so, where COMMAND is the command you want to run on the remote server: `ssh cs15lwi22@ieng6.ucsd.edu "COMMAND"`
-* By separating commands with semicolons, you can run multiple commands on the server with one line of code: `$ scp file.java cs15lwi22zz@ieng6.ucsd.edu; ssh cs15lwi22zz@ieng6.ucsd.edu "javac file.java; ssh cs15lwi22zz@ieng6.ucsd.edu "java file"`
+* By separating commands with semicolons, you can run multiple commands on the server with one line of code: `$ scp file.java cs15lwi22zz@ieng6.ucsd.edu; ssh cs15lwi22zz@ieng6.ucsd.edu "javac file.java; java file"`
+
+As you can see here I was able to login to the server, then compile and run the file in one command, then exit back to my client.
+![](snip6.PNG)
