@@ -2,8 +2,8 @@
 
 ## 1). Code Change 1
 
-Here is the first code change that we made to try and fix a bug we encountered.
-![](lab-report-2-images/LR2-1.PNG)
+Here is the first code change that we made to try to fix a bug we encountered.
+![lab-report-2-images/LR2-1.PNG]
 
 This is a link to the test file we made that broke our initial MarkdownParse.java: [test-file-break.md](https://github.com/rchaklas/markdown-parse/blob/8ab861d0a4ff624217d281dd5b219ff00e05fd33/test-file-break.md).
 
@@ -15,8 +15,8 @@ The symptom in this case is a StringIndexOutOfBounds exception in the output as 
 
 ## 2). Code Change 2
 
-Here is the second code change that we made to try and fix a bug we encountered.
-![](lab-report-2-images/LR2-4.PNG)
+Here is the second code change that we made to try to fix a bug we encountered.
+![lab-report-2-images/LR2-4.PNG]
 
 This is a link to the test file we made that caused the bug: [test-file-break.md](https://github.com/rchaklas/markdown-parse/blob/e2f2996f1812a23313c8ddfdcb0da798768c0366/test-file-break.md).
 
@@ -28,8 +28,8 @@ The symptom in this case was the the 2nd google link to not be displayed in the 
 
 ## 3). Code Change 3
 
-Here is the third code change that we made to try and fix a bug we encountered.
-![](lab-report-2-images/LR2-5.PNG)
+Here is the third code change that we made to try to fix a bug we encountered.
+![lab-report-2-images/LR2-5.PNG]
 
 This is a link to the test file that caused the bug: [test-file8.md](https://github.com/rchaklas/markdown-parse/blob/e003b948d08596c0664bcf8db8b861bb79a867a1/test-file8.md).
 
