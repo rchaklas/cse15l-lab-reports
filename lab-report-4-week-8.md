@@ -2,11 +2,11 @@
 
 [A link to my MarkdownParse](https://github.com/rchaklas/markdown-parse)
 
-[A link to the other group's MarkdownParse](https://github.com/rchaklas/markdown-parse)
+[A link to the other group's MarkdownParse](https://github.com/annakkin/markdown-parse)
 
 ## 1). Snippet 1
 
-The first snippet should produce `[google.com]` as its output. Below is the code used to test the first snippet for both implementations:
+The first snippet should produce ```[`google.com, google.com, ucsd.edu]``` as its output. Below is the code used to test the first snippet for both implementations:
 
 ![Image](lab-report-4-images/test1.PNG)
 
